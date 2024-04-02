@@ -15,7 +15,8 @@ aside {
   margin-bottom: 0.5%;
 }
 
-header, footer {
+header,
+footer {
   background-color: red;
   position: fixed;
   width: 100%;
@@ -64,7 +65,8 @@ nav ul li a {
   text-decoration: none;
 }
 
-td, th {
+td,
+th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
@@ -93,5 +95,13 @@ aside img {
 }
 
 aside {
-  overflow: hidden;
+  overflow: scroll;
+}
+
+ul {
+  color: red;
+}
+
+ul ol {
+  color: black;
 }
