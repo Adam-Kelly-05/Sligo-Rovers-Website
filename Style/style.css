@@ -102,6 +102,32 @@ ul {
   color: red;
 }
 
+ul ul {
+  color: black;
+}
+
 ul ol {
   color: black;
+}
+
+.top {
+  margin-top: 280px;
+}
+
+.bottom {
+  margin-bottom: 90px;
+}
+
+.left {
+  float: left;
+  margin-left: 0.5%;
+}
+
+.right {
+  float: right;
+  margin-right: 0.5%;
+}
+
+#Dixie_Dean_Image {
+  opacity: 0%;
 }
