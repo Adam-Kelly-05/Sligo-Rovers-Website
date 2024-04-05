@@ -65,6 +65,11 @@ nav ul li a {
   text-decoration: none;
 }
 
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
 td,
 th {
   border: 1px solid #dddddd;
@@ -84,8 +89,14 @@ tr:nth-child(1) {
   max-height: 20vh;
 }
 
+iframe {
+  width: 100%;
+  height: 100%;
+}
 #video {
   max-height: 35vh;
+  width: 100%;
+  height: 100%;
 }
 
 aside img {
@@ -132,4 +143,17 @@ ul ol {
 #away_jersey,
 #answer {
   opacity: 0%;
+}
+
+#Europe_Game {
+  height: 100%;
+}
+
+.SeventyFivePercent {
+  background-color: rgb(255, 255, 255, 75%);
+}
+
+#John_Russell {
+height: 100%;
+width: 100%;
 }
