@@ -131,3 +131,13 @@ ul ol {
 #Dixie_Dean_Image {
   opacity: 0%;
 }
+
+#home_jersey {
+  opacity: 0%;
+  object-fit: contain;
+}
+
+#away_jersey {
+  opacity: 0%;
+  object-fit: contain;
+}

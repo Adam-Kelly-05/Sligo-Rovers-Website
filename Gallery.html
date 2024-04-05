@@ -8,6 +8,14 @@
         <link rel="icon" href="Images/Favicon.png">
     </head>
     <body>
+        <script>
+            function showHomeJersey() {
+              document.getElementById("home_jersey").style.opacity = "100%";
+            }
+            function showAwayJersey() {
+              document.getElementById("away_jersey").style.opacity = "100%";
+            }
+        </script>
         <header class="header-box">
             <img src="Images/WebsiteLogo.png" alt="logo" height="125">
         </header>
@@ -19,10 +27,23 @@
                 <li><a href="Gallery.html" id="active">Gallery</a></li>
             </ul>
         </nav>
-        <aside style="float: left; margin-top: 280px; margin-left: 0.5%;">
+        <aside style="float: left; margin-top: 280px; margin-left: 0.5%; overflow: hidden;">
             <h2>
-                hi
+                2024 Jerseys
             </h2>
+            <aside style="float: left; margin: 0%; border: 0; height: 45vh;">
+                <h2 onclick="showHomeJersey()">
+                    Click here to see the home jersey
+                </h2>
+                <img id="home_jersey" src="Images/Home_Jersey.jpg">
+            </aside>
+            <aside style="float: right; margin: 0%; border: 0;">
+                <h2 onclick="showAwayJersey()">
+                    Click here to see the away jersey
+                </h2>
+                <img id="away_jersey" src="Images/Away_Jersey.jpg">
+            </aside>
+            <br> <!-- So there is a gap under the images -->
         </aside>
         <aside style="float: right; margin-top: 280px; margin-right: 0.5%;">
             <h2>
