@@ -15,6 +15,16 @@
             function showAwayJersey() {
               document.getElementById("away_jersey").style.opacity = "100%";
             }
+            function showCorrectAnswer() {
+              document.getElementById("answer").style.color = "red";
+              document.getElementById("answer").innerHTML = "Wrong, they were made in 1928, making them 96 years old";
+              document.getElementById("answer").style.opacity = "100%";
+            }
+            function showWrongAnswer() {
+              document.getElementById("answer").style.color = "green";
+              document.getElementById("answer").innerHTML = "Correct, they were made in 1928, making them 96 years old";
+              document.getElementById("answer").style.opacity = "100%";
+            }
         </script>
         <header class="header-box">
             <img src="Images/WebsiteLogo.png" alt="logo" height="125">
@@ -27,11 +37,11 @@
                 <li><a href="Gallery.html" id="active">Gallery</a></li>
             </ul>
         </nav>
-        <aside style="float: left; margin-top: 280px; margin-left: 0.5%; overflow: hidden;">
+        <aside class="left top" style="overflow: hidden;">
             <h2>
                 2024 Jerseys
             </h2>
-            <aside style="float: left; margin: 0%; border: 0; height: 45vh;">
+            <aside style="float: left; margin: 0%; border: 0;">
                 <h2 onclick="showHomeJersey()">
                     Click here to see the home jersey
                 </h2>
@@ -45,17 +55,19 @@
             </aside>
             <br> <!-- So there is a gap under the images -->
         </aside>
-        <aside style="float: right; margin-top: 280px; margin-right: 0.5%;">
+        <aside class="right top">
+            <h2>
+                Is Sligo Rovers <u onclick="showCorrectAnswer()">over</u> or <u onclick="showWrongAnswer()">under</u> 100 years old?
+            </h2>
+            <p id="answer">PLACEHOLDER</p>
+            <img src="Images/1928.jpg">
+        </aside>
+        <aside class="left bottom">
             <h2>
                 hi
             </h2>
         </aside>
-        <aside style="float: left; margin-bottom: 90px; margin-left: 0.5%;">
-            <h2>
-                hi
-            </h2>
-        </aside>
-        <aside style="float: right; margin-bottom: 90px; margin-right: 0.5%;">
+        <aside class="right bottom">
             <h2>
                 hi
             </h2>

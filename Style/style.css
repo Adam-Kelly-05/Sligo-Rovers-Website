@@ -82,7 +82,6 @@ tr:nth-child(1) {
   height: 50%;
   width: 50%;
   max-height: 20vh;
-  overflow: hidden;
 }
 
 #video {
@@ -128,16 +127,9 @@ ul ol {
   margin-right: 0.5%;
 }
 
-#Dixie_Dean_Image {
+#Dixie_Dean_Image,
+#home_jersey,
+#away_jersey,
+#answer {
   opacity: 0%;
-}
-
-#home_jersey {
-  opacity: 0%;
-  object-fit: contain;
-}
-
-#away_jersey {
-  opacity: 0%;
-  object-fit: contain;
 }
